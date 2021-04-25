@@ -1,8 +1,9 @@
 # HTTP Server
-| Version | Command                                 |
-| :------ | :-------------------------------------- |
-| Python2 | ```python -m SimpleHTTPServer <port>``` |
-| Python3 | ```python3 -m http.server <port>```     |
+| Version | Command                                                   |
+| :------ | :-------------------------------------------------------- |
+| Python2 | ```python -m SimpleHTTPServer <port> -d <documentroot>``` |
+| Python3 | ```python3 -m http.server <port> -d <documentroot>```     |
+| PHP     | ```php -S <ip>:<port> -t <documentroot>```                |
 
 
 # Spawn a Shell
