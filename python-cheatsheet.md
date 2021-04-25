@@ -13,19 +13,26 @@
 | Python3 | python3 -c "import pty; pty.spawn('/bin/bash')" |
 
 ## Step 2
-Ctrl+Z
+Ctrl+z
 
 ## Step 3
 ```bash
-stty raw -echo
+# stty raw -echo
 ```
 
 ## Step 4
 ```bash
-fg
+# fg
 ```
 
 ## Step 5
 ```bash
-reset
+# reset
+```
+
+## Step 6
+```bash
+# export SHELL=bash
+# export TERM=xterm-256color
+# stty rows <num> columns <cols>
 ```
