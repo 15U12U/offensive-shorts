@@ -24,3 +24,8 @@ stty raw -echo
 ```bash
 fg
 ```
+
+## Step 5
+```bash
+reset
+```
