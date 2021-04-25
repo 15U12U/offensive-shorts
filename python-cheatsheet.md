@@ -1,16 +1,16 @@
 # HTTP Server
-| Version | Command                          |
-| :------ | :------------------------------- |
-| Python2 | python -m SimpleHTTPServer -p 80 |
-| Python3 | python3 -m http.server -p 80     |
+| Version | Command                                 |
+| :------ | :-------------------------------------- |
+| Python2 | ```python -m SimpleHTTPServer <port>``` |
+| Python3 | ```python3 -m http.server <port>```     |
 
 
 # Spawn a Shell
 ## Step 1
-| Version | Command                                         |
-| :------ | :---------------------------------------------- |
-| Python2 | python -c "import pty; pty.spawn('/bin/bash')"  |
-| Python3 | python3 -c "import pty; pty.spawn('/bin/bash')" |
+| Version | Command                                               |
+| :------ | :---------------------------------------------------- |
+| Python2 | ```python -c "import pty; pty.spawn('/bin/bash')"```  |
+| Python3 | ```python3 -c "import pty; pty.spawn('/bin/bash')"``` |
 
 ## Step 2
 Ctrl+z
