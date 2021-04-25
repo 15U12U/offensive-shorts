@@ -16,7 +16,11 @@
 Ctrl+Z
 
 ## Step 3
+```bash
 stty raw -echo
+```
 
 ## Step 4
+```bash
 fg
+```
